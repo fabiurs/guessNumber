@@ -1,11 +1,87 @@
 body{
     font-family: "Times New Roman", Times, serif;
-    background-color: #fefae0;
+    background-color: #fdf0d5;
 }
-
+h1{
+    color: #003049;
+    font-size: 40px;
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+p{
+    font-size: 25px;
+}
+
+.warning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+    background-color: #003049;
+    color: #fdf0d5;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#check, #resetGame{
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #fdf0d5;
+    color: #003049;
+    transition: all 0.5s ease-in;
+}
+
+#check:hover, #resetGame:hover{
+    background-color:  #003049;
+    color:#fdf0d5;
+    cursor: pointer;   
+}
+
+#resetGame{
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+.c-info{
+    border-bottom: 2px solid #003049;
+    margin-bottom: 20px;
+}
+
+.score{
+    border-top: 2px solid #003049;
+}
+
+.info, .score{
+    color: #003049
+}
+
+.warning{
+    color: #c1121f;
+}
+
+.good{
+    color: #669bbc;
+}
+
+.simple{
+    color:  black;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    padding: 100px;
 }
